@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Video Insight",
+  "description": "Upload videos and extract intelligent insights like summaries, flashcards, and key lessons using Gemini 3 Pro.",
+  "requestFramePermissions": []
+}
