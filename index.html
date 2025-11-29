@@ -43,6 +43,11 @@
 </head>
   <body>
     <div id="root"></div>
+    <script>
+      // Polyfill for process.env to avoid crashes in browser environments
+      // This is essential for Vercel deployments where 'process' is not defined in the client
+      window.process = window.process || { env: {} };
+    </script>
     <script type="module" src="/index.tsx"></script>
   </body>
 </html>
